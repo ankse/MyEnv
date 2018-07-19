@@ -1,6 +1,6 @@
 ## change history
 
-'''
+```
 if [ "$PROMPT_COMMAND" != "history -a" ];then
         if [  -f ~/.bash_history ];then
                 export PROMPT_COMMAND="history -a"
@@ -9,7 +9,7 @@ if [ "$PROMPT_COMMAND" != "history -a" ];then
         fi
         unset HISTCONTROL
 fi
-'''
+```
 
     HISTSIZE=1000000
     HISTFILESIZE=20000
