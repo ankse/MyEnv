@@ -1,4 +1,5 @@
 ## change history
+
 '''
 if [ "$PROMPT_COMMAND" != "history -a" ];then
         if [  -f ~/.bash_history ];then
@@ -9,10 +10,12 @@ if [ "$PROMPT_COMMAND" != "history -a" ];then
         unset HISTCONTROL
 fi
 '''
+
     HISTSIZE=1000000
     HISTFILESIZE=20000
 
 ## some more ls aliases
+
     alias ls='ls --color=auto'
     alias ll='ls -l'
     alias la='ls -A'
