@@ -2,6 +2,7 @@
 
 ### show branch and git status
 
+    source /usr/share/git-core/contrib/completion/git-prompt.sh
     PS1='\[\033[01;31m\]$(__git_ps1 "(%s)")\[\033[00m\]'$PS1
     GIT_PS1_SHOWUPSTREAM="auto"
     GIT_PS1_SHOWDIRTYSTATE="true"
